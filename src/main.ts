@@ -35,4 +35,7 @@ calcularBtn.addEventListener('click', () => {
 });
 
 // Hacemos un cálculo inicial al cargar la página
-calcularBtn.click();
+//calcularBtn.click();
+const añoParaAuditar = 1901; // Cambia este valor según el año que quieras auditar
+console.log(`Realizando auditoría para el año ${añoParaAuditar}...`);
+calculator.auditNemontemiForYear(añoParaAuditar);
